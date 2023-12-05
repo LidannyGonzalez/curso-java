@@ -37,9 +37,9 @@ const preguntas = [
         respuestaUsuario = prompt(
           `${preguntaActual.pregunta}\nOpciones:\n${preguntaActual.opciones.map((opcion, index) => `${index + 1}. ${opcion}`).join('\n')}\nIngresa el número de tu respuesta:`
         );
-  
+      
         if (!/^[1-4]$/.test(respuestaUsuario)) {
-          console.log("Por favor, ingresa un número válido (1-4).");
+          alert("Por favor, ingresa un número válido (1-4).");
         }
       } while (!/^[1-4]$/.test(respuestaUsuario));
   
