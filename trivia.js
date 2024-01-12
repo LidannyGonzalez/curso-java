@@ -107,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
           }
       });
 
-      // Comprobamos si hemos llegado al final de la trivia
       const preguntasRespondidas = document.querySelectorAll(".pregunta-container .selected").length;
       if (preguntasRespondidas === preguntasAleatorias.length) {
           mostrarResultados();
