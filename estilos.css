@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#triviaContainer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pregunta-container {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+li.selected {
+    background-color: #e0e0e0;
+}
+
+li.correct-answer {
+    background-color: #c8e6c9;
+}
