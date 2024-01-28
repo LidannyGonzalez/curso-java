@@ -1,5 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
 }
 
 #triviaContainer {
@@ -7,7 +9,7 @@ body {
     margin: 0 auto;
 }
 
-.pregunta-container {
+.pregunta-contenedor {
     margin-bottom: 20px;
 }
 
@@ -24,10 +26,26 @@ li {
     border-radius: 5px;
 }
 
-li.selected {
+li.seleccionado {
     background-color: #e0e0e0;
 }
 
-li.correct-answer {
+li.respuesta-correcta {
     background-color: #c8e6c9;
 }
+
+#mostrarResultadoBtn {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+#resultado {
+    margin-top: 20px;
+    font-size: 18px;
+}
+

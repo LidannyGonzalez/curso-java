@@ -1,0 +1,56 @@
+{
+  "marvel": [
+    {
+      "pregunta": "¿Cuál es el nombre real de Iron Man?",
+      "opciones": ["Tony Stark", "Bruce Banner", "Steve Rogers", "Peter Parker"],
+      "respuestaCorrecta": "Tony Stark"
+    },
+    {
+      "pregunta": "¿Quién es conocido como el Dios del Trueno en el universo Marvel?",
+      "opciones": ["Iron Man", "Hulk", "Thor", "Viuda Negra"],
+      "respuestaCorrecta": "Thor"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre del alter ego de Spider-Man?",
+      "opciones": ["Bruce Wayne", "Clark Kent", "Peter Parker", "Wade Wilson"],
+      "respuestaCorrecta": "Peter Parker"
+    },
+    {
+      "pregunta": "¿Cuál es el metal utilizado para hacer el escudo del Capitán América?",
+      "opciones": ["Hierro", "Titanio", "Vibranium", "Aluminio"],
+      "respuestaCorrecta": "Vibranium"
+    },
+    {
+      "pregunta": "¿Qué científico se transforma en Hulk?",
+      "opciones": ["Bruce Banner", "Tony Stark", "Peter Parker", "Scott Lang"],
+      "respuestaCorrecta": "Bruce Banner"
+    }
+  ],
+  "otraCategoria": [
+    {
+      "pregunta": "¿En qué año se lanzó el primer cómic de Spider-Man?",
+      "opciones": ["1962", "1975", "1989", "2001"],
+      "respuestaCorrecta": "1962"
+    },
+    {
+      "pregunta": "¿Cuál es el planeta natal de Gamora en Guardianes de la Galaxia?",
+      "opciones": ["Tatooine", "Marte", "Zen-Whoberi", "Alderaan"],
+      "respuestaCorrecta": "Zen-Whoberi"
+    },
+    {
+      "pregunta": "¿Cuál es el nombre real de Black Widow?",
+      "opciones": ["Natasha Romanoff", "Wanda Maximoff", "Maria Hill", "Carol Danvers"],
+      "respuestaCorrecta": "Natasha Romanoff"
+    },
+    {
+      "pregunta": "¿Qué actor interpreta a Deadpool en las películas?",
+      "opciones": ["Chris Hemsworth", "Ryan Reynolds", "Robert Downey Jr.", "Chris Evans"],
+      "respuestaCorrecta": "Ryan Reynolds"
+    },
+    {
+      "pregunta": "¿Cuál es el villano principal en la película 'Avengers: Infinity War'?",
+      "opciones": ["Loki", "Thanos", "Ultron", "Cráneo Rojo"],
+      "respuestaCorrecta": "Thanos"
+    }
+  ]
+}
