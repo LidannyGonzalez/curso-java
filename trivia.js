@@ -9,8 +9,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       return null;
     }
   }
-}
- 
+
   const preguntasDesdeJSON = await cargarPreguntasDesdeJSON();
   if (preguntasDesdeJSON) {
     localStorage.setItem("preguntas", JSON.stringify(preguntasDesdeJSON));
@@ -56,13 +55,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     const respuestaCorrectaIndex = preguntasAleatorias[index].opciones.findIndex(
       (opcion) => opcion === preguntasAleatorias[index].respuestaCorrecta
     );
-  
-    opciones.forEach(opcion) => {
+
+    opciones.forEach((opcion) => {
       opcion.removeEventListener("click", () => manejarRespuesta(opcion, index, opciones));
-  
+
       if (opcion === opcionSeleccionada) {
         opcion.classList.add("seleccionado");
-  
+
         if (opcion.getAttribute("data-opcion") === respuestaCorrectaIndex.toString()) {
           opcion.classList.add("respuesta-correcta");
           puntaje++;
@@ -70,15 +69,15 @@ document.addEventListener("DOMContentLoaded", async function () {
       } else {
         opcion.classList.remove("seleccionado");
       }
-  
+
       opcion.classList.remove("respuesta-correcta");
-  
+    });
+
     const preguntasRespondidas = document.querySelectorAll(".pregunta-contenedor.seleccionado").length;
     if (preguntasRespondidas === preguntasAleatorias.length) {
       mostrarResultadoBtn.style.display = "block";
     }
   }
-  
 
   function mostrarResultados() {
     const finTiempo = new Date();
@@ -117,7 +116,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     } else {
       resultadoContenedor.innerHTML += "<p>¡Felicidades! Podrías hacer esto todo el día. Eres un experto en Marvel.</p>";
     }
-    
+
     localStorage.setItem("ultimoResultado", JSON.stringify({
       puntaje: puntaje,
       tiempoTranscurrido: tiempoTranscurrido.toFixed(2)
